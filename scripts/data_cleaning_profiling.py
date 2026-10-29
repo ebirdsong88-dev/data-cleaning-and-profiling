@@ -7,22 +7,6 @@ Purpose:
     (duplicates, missing values, inconsistent entries, formatting errors,
     outliers), clean them, and export a cleaned CSV for future analysis.
 
-How to run (from the project root folder in a VS Code terminal):
-    python scripts/data_cleaning_profiling.py
-
-Folder layout this script expects:
-    project_root/
-        data/employee_turnover.csv             <- raw input (unchanged)
-        data/employee_turnover_cleaned.csv     <- cleaned CSV is written here
-        images/                                <- boxplots are written here
-        scripts/data_cleaning_profiling.py                   <- this script
-
-References used for the code (in-text citations appear in comments below):
-    (pandas development team, 2024) pandas documentation. https://pandas.pydata.org/docs/
-    (Harris et al., 2020) NumPy. https://numpy.org/doc/stable/
-    (Hunter, 2007) Matplotlib. https://matplotlib.org/stable/
-    (Waskom, 2021) seaborn. https://seaborn.pydata.org/
-    (Python Software Foundation, 2024) pathlib. https://docs.python.org/3/library/pathlib.html
 """
 
 # ----------------------------------------------------------------------------
